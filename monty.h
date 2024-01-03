@@ -5,8 +5,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define DELIMITERS " \n\t\r"
-
 /* Define the structure for the stack */
 typedef struct stack_s
 {
@@ -17,13 +15,13 @@ typedef struct stack_s
 /* Function prototypes */
 void parse_and_execute(stack_t **stack, char *line);
 void execute_instruction(stack_t **stack, char *instruction, char *argument);
-void push(stack_t **stack, char *argument);
-void pall(stack_t *stack);
-void pint(stack_t *stack);
-void pop(stack_t **stack);
-void swap(stack_t **stack);
-void add(stack_t **stack);
-void nop(stack_t **stack);
+void f_push(stack_t **stack, char *argument);
+void f_pall(stack_t *stack);
+void f_pint(stack_t **stack, unsigned int line_number);
+void f_pop(stack_t **stack, unsigned int line_number);
+void f_swap(stack_t **stack, unsigned int line_number);
+void f_add(stack_t **stack, unsigned int line_number);
+void f_nop(stack_t **stack);
 void free_stack(stack_t **stack);
-
+int is_numeric(const char *str);
 #endif /* MONTY_H */
