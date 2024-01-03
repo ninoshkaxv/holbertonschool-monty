@@ -1,10 +1,10 @@
 #include "monty.h"
 
 /**
- * pop - Removes the top element of the stack.
+ * f_pop - Removes the top element of the stack.
  * @stack: A pointer to the stack.
  */
-void pop(stack_t **stack)
+void f_pop(stack_t **stack, unsigned int line_number)
 {
     stack_t *temp;
 
@@ -20,10 +20,10 @@ void pop(stack_t **stack)
 }
 
 /**
- * swap - Swaps the top two elements of the stack.
+ * f_swap - Swaps the top two elements of the stack.
  * @stack: A pointer to the stack.
  */
-void swap(stack_t **stack)
+void f_swap(stack_t **stack, unsigned int line_number)
 {
     int temp;
 
@@ -39,10 +39,10 @@ void swap(stack_t **stack)
 }
 
 /**
- * add - Adds the top two elements of the stack.
+ * f_add - Adds the top two elements of the stack.
  * @stack: A pointer to the stack.
  */
-void add(stack_t **stack)
+void f_add(stack_t **stack, unsigned int line_number)
 {
     if (!*stack || !(*stack)->next)
     {
@@ -51,6 +51,5 @@ void add(stack_t **stack)
     }
 
     (*stack)->next->n += (*stack)->n;
-    pop(stack);
+    f_pop(stack, line_number);
 }
-
