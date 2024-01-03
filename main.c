@@ -1,3 +1,4 @@
+#define _GNU_SOURCE
 #include "monty.h"
 
 unsigned int line_number = 0;
@@ -13,7 +14,7 @@ int main(int argc, char *argv[])
     stack_t *stack = NULL;
     char *line = NULL;
     size_t len = 0;
-    ssize_t read;
+    size_t read;
     FILE *file;
 
     if (argc != 2)
