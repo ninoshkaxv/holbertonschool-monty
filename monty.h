@@ -47,6 +47,7 @@ typedef struct instruction_s
 } instruction_t;
 
 /* Prototypes */
+int is_numeric(const char *str);
 void get_opcode(char *buff, stack_t **stack, unsigned int line_number);
 char **_divstring(char *string_pathcpy, char *separator);
 void f_pall(stack_t **stack, unsigned int line_number);
