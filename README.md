@@ -1,6 +1,5 @@
 # C - Stacks, Queues - LIFO, FIFO
-! <iframe src="https://giphy.com/embed/oGAM2NfiX50ac" width="480" height="341" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/monty-python-and-the-holy-grail-oGAM2NfiX50ac">via GIPHY</a></p>
-
+![Deal with it](https://gifs.travisnorthcutt.com/monty-python-you-make-me-sad.gif)
 ### General
 * Allowed editors: `vi`, `vim`, `emacs`
 * All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options `-Wall -Werror -Wextra -pedantic -std=c89`
