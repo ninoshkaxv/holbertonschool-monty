@@ -1,5 +1,5 @@
 # C - Stacks, Queues - LIFO, FIFO
-![Deal with it](https://gifs.travisnorthcutt.com/monty-python-you-make-me-sad.gif)
+![github-header-image(2)](https://github.com/ninoshkaxv/holbertonschool-monty/assets/143634181/8df150a2-eed5-46b8-9df0-579075436572)
 ### General
 * Allowed editors: `vi`, `vim`, `emacs`
 * All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options `-Wall -Werror -Wextra -pedantic -std=c89`
@@ -60,7 +60,7 @@ Monty 0.98 is a scripting language that is first compiled into Monty byte codes 
 
 Files containing Monty byte codes usually have the `.m` extension. Most of the industry uses this standard but it is not required by the specification of the language. There is not more than one instruction per line. There can be any number of spaces before or after the opcode and its argument:
 
-![github-header-image(2)](https://github.com/ninoshkaxv/holbertonschool-monty/assets/143634181/8df150a2-eed5-46b8-9df0-579075436572)
+![Deal with it](https://gifs.travisnorthcutt.com/monty-python-you-make-me-sad.gif)
 
 ## Authors/Collaborators
 * Ninoshka Perez
